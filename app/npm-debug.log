@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly loadAllDepsIntoIdealTree Finishing
+20 silly idealTree:prePrune MEAN_STACK
+20 silly idealTree:prePrune └── underscore@1.5.2
+21 silly loadIdealTree Finishing
+22 silly currentTree MEAN_STACK
+22 silly currentTree └── underscore@1.5.2
+23 silly idealTree MEAN_STACK
+23 silly idealTree └── underscore@1.5.2
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly executeActions Starting
+30 silly install executeActions
+31 silly doSerial global-install 0
+32 silly doParallel fetch 0
+33 verbose lock using /Users/YunchenWei/.npm/_locks/staging-981b1baf5a094d89.lock for /Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging
+34 verbose unlock done using /Users/YunchenWei/.npm/_locks/staging-981b1baf5a094d89.lock for /Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging
+35 silly rollbackFailedOptional Starting
+36 silly rollbackFailedOptional Finishing
+37 silly runTopLevelLifecycles Starting
+38 silly runTopLevelLifecycles Finishing
+39 silly install printInstalled
+40 warn EPACKAGEJSON MEAN_STACK No description
+41 warn EPACKAGEJSON MEAN_STACK No repository field.
+42 warn EPACKAGEJSON MEAN_STACK No license field.
+43 verbose stack Error: EACCES: permission denied, mkdir '/Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging'
+43 verbose stack     at Error (native)
+44 verbose cwd /Users/YunchenWei/Documents/Coursera/MEAN_STACK
+45 error Darwin 15.2.0
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+47 error node v5.1.0
+48 error npm  v3.3.12
+49 error path /Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging
+50 error code EACCES
+51 error errno -13
+52 error syscall mkdir
+53 error Error: EACCES: permission denied, mkdir '/Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging'
+53 error     at Error (native)
+53 error  { [Error: EACCES: permission denied, mkdir '/Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging']
+53 error   errno: -13,
+53 error   code: 'EACCES',
+53 error   syscall: 'mkdir',
+53 error   path: '/Users/YunchenWei/Documents/Coursera/MEAN_STACK/node_modules/.staging' }
+54 error Please try running this command again as root/Administrator.
+55 verbose exit [ -13, true ]
