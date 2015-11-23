@@ -11,7 +11,24 @@ var mongoose = require('mongoose');
  *                a student should take before taking this course.
  */
 var schema = new mongoose.Schema({
-  // Implement schema here!
+    // Implement schema here!
+    _id: {
+        type: String,
+        required: true
+    },
+    title: {
+        type: String,
+        maxlength: 140,
+        required: true
+    },
+    description: {
+        type: String,
+        required: true
+    },
+    requirements: [{
+        type: String, 
+        ref: 'Course'
+    }]
 });
 
 module.exports = schema;
